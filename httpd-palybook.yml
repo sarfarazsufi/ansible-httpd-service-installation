@@ -1,5 +1,5 @@
 ---
-- hosts: ansibleserver
+- hosts: 18.223.97.182
   remote_user: root
 
   tasks:
