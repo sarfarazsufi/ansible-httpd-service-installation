@@ -1,7 +1,7 @@
 ---
-- hosts: 18.223.97.182
+- hosts: ansibleserver
   remote_user: root
 
   tasks:
   - name: ensure apache is at the latest version
-    yum: name=httpd state=absence
+    yum: name=httpd state=absent
